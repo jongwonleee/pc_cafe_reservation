@@ -1,0 +1,35 @@
+C:\Users\Administrator\AppData\Local\Temporary Projects\PCProgram\bin\Debug\PCProgram.exe.config
+C:\Users\Administrator\AppData\Local\Temporary Projects\PCProgram\bin\Debug\PCProgram.exe
+C:\Users\Administrator\AppData\Local\Temporary Projects\PCProgram\bin\Debug\PCProgram.pdb
+C:\Users\Administrator\AppData\Local\Temporary Projects\PCProgram\obj\Debug\PCProgram.csprojResolveAssemblyReference.cache
+C:\Users\Administrator\AppData\Local\Temporary Projects\PCProgram\obj\Debug\PCProgram.PCRoom.resources
+C:\Users\Administrator\AppData\Local\Temporary Projects\PCProgram\obj\Debug\PCProgram.Properties.Resources.resources
+C:\Users\Administrator\AppData\Local\Temporary Projects\PCProgram\obj\Debug\PCProgram.csproj.GenerateResource.Cache
+C:\Users\Administrator\AppData\Local\Temporary Projects\PCProgram\obj\Debug\PCProgram.exe
+C:\Users\Administrator\AppData\Local\Temporary Projects\PCProgram\obj\Debug\PCProgram.pdb
+C:\Users\Administrator\AppData\Local\Temporary Projects\PCProgram\obj\Debug\PCProgram.StartForm.resources
+D:\2학기 프로젝트\PCProgram\PCProgram\bin\Debug\PCProgram.exe.config
+D:\2학기 프로젝트\PCProgram\PCProgram\bin\Debug\PCProgram.exe
+D:\2학기 프로젝트\PCProgram\PCProgram\bin\Debug\PCProgram.pdb
+D:\2학기 프로젝트\PCProgram\PCProgram\obj\Debug\PCProgram.csprojResolveAssemblyReference.cache
+D:\2학기 프로젝트\PCProgram\PCProgram\obj\Debug\PCProgram.PCRoom.resources
+D:\2학기 프로젝트\PCProgram\PCProgram\obj\Debug\PCProgram.Properties.Resources.resources
+D:\2학기 프로젝트\PCProgram\PCProgram\obj\Debug\PCProgram.StartForm.resources
+D:\2학기 프로젝트\PCProgram\PCProgram\obj\Debug\PCProgram.csproj.GenerateResource.Cache
+D:\2학기 프로젝트\PCProgram\PCProgram\obj\Debug\PCProgram.exe
+D:\2학기 프로젝트\PCProgram\PCProgram\obj\Debug\PCProgram.pdb
+D:\2학기 프로젝트\PCProgram\PCProgram\obj\Debug\PCProgram.JoinForm.resources
+D:\2학기 프로젝트 부수\PCProgram\PCProgram\bin\Debug\PCProgram.exe.config
+D:\2학기 프로젝트 부수\PCProgram\PCProgram\obj\Debug\PCProgram.exe
+D:\2학기 프로젝트 부수\PCProgram\PCProgram\obj\Debug\PCProgram.pdb
+D:\2학기 프로젝트 부수\PCProgram\PCProgram\bin\Debug\PCProgram.exe
+D:\2학기 프로젝트 부수\PCProgram\PCProgram\bin\Debug\PCProgram.pdb
+D:\2학기 프로젝트 부수\PCProgram\PCProgram\obj\Debug\PCProgram.csprojResolveAssemblyReference.cache
+D:\2학기 프로젝트 부수\PCProgram\PCProgram\obj\Debug\PCProgram.PCRoom.resources
+D:\2학기 프로젝트 부수\PCProgram\PCProgram\obj\Debug\PCProgram.JoinForm.resources
+D:\2학기 프로젝트 부수\PCProgram\PCProgram\obj\Debug\PCProgram.Properties.Resources.resources
+D:\2학기 프로젝트 부수\PCProgram\PCProgram\obj\Debug\PCProgram.StartForm.resources
+D:\2학기 프로젝트 부수\PCProgram\PCProgram\obj\Debug\PCProgram.csproj.GenerateResource.Cache
+D:\program\PCZzim\2학기 프로젝트 부수\PCProgram\PCProgram\bin\Debug\PCProgram.exe.config
+D:\program\PCZzim\2학기 프로젝트 부수\PCProgram\PCProgram\obj\Debug\PCProgram.exe
+D:\program\PCZzim\2학기 프로젝트 부수\PCProgram\PCProgram\obj\Debug\PCProgram.pdb

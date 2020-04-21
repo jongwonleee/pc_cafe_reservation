@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="60dp"
+    android:background="#FFFFFF"
+    android:orientation="horizontal" >
+    
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical" >
+        
+
+         <TextView
+	            android:id="@+id/text_pc"
+	            android:layout_width="match_parent"
+	            android:layout_height="35dp"
+	            android:layout_alignParentLeft="true"
+	            android:background="#FFFFFF"
+	            android:gravity="center|left"
+	            android:paddingLeft="30dp"
+	            android:text="라네이즈 PC방"
+	            android:textAppearance="?android:attr/textAppearanceLarge"
+	            android:textSize="20sp" />
+
+         <LinearLayout
+             android:layout_width="match_parent"
+             android:layout_height="match_parent" >
+
+             <TextView
+                 android:layout_width="wrap_content"
+                 android:layout_height="match_parent"
+                 android:background="#EEEEEE"
+                 android:gravity="center|left"
+                 android:paddingLeft="15dp"
+                 android:paddingRight="5dp"
+                 android:text="잔여좌석 "
+                 android:textAppearance="?android:attr/textAppearanceSmall"
+                 android:textSize="15sp" />
+             <TextView
+                 android:id="@+id/text_sit"
+                 android:layout_width="wrap_content"
+                 android:layout_height="match_parent"
+                 android:background="#EEEEEE"
+                 android:gravity="center|left"
+                 android:paddingRight="5dp"
+                 android:text="18"
+                 android:textAppearance="?android:attr/textAppearanceLarge"
+                 android:textSize="15sp" />
+            <TextView
+                 android:layout_width="wrap_content"
+                 android:layout_height="match_parent"
+                 android:background="#EEEEEE"
+                 android:gravity="center|left"
+                 android:paddingRight="5dp"
+                 android:text="석 "
+                 android:textAppearance="?android:attr/textAppearanceSmall"
+                 android:textSize="15sp" />
+			<TextView
+			    android:id="@+id/text_dis"
+                 android:layout_width="match_parent"
+                 android:layout_height="match_parent"
+                 android:background="#E0E0E0"
+                 android:gravity="center|right"
+                 android:paddingRight="15dp"
+                 android:text="256 m"
+                 android:textAppearance="?android:attr/textAppearanceLarge"
+                 android:textSize="15sp" />
+         </LinearLayout>
+
+    </LinearLayout>
+
+</LinearLayout>

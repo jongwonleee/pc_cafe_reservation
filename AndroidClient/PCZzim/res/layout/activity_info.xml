@@ -1,0 +1,796 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFFFFF"
+    android:orientation="vertical"
+    tools:context="${relativePackage}.${activityClass}" >
+
+        <RelativeLayout
+            android:id="@+id/RelativeLayout1"
+            android:layout_width="match_parent"
+            android:background="#F4FA58"
+            android:layout_height="50dp" >
+
+            <ImageButton
+                android:id="@+id/but_home"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:background="@drawable/but_back" />
+
+            <TextView
+                android:id="@+id/text_exp"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentBottom="true"
+                android:layout_alignParentTop="true"
+                android:layout_margin="5dp"
+                android:layout_toRightOf="@+id/but_home"
+                android:background="#fbff9b"
+                android:gravity="center_vertical"
+                android:paddingLeft="10dp"
+                android:text="라네이즈 PC방"
+                android:textAppearance="?android:attr/textAppearanceLarge" />
+
+        </RelativeLayout>
+
+
+        <TextView
+            android:id="@+id/textView1"
+            android:layout_marginTop="10dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="좌석 정보"
+            android:textAppearance="?android:attr/textAppearanceMedium" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" >
+
+                <CheckBox
+                    android:id="@+id/sit1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:button="@null"
+                    android:textSize="13sp"
+                    android:background="@drawable/pc"
+                    android:gravity="center"
+                    android:paddingBottom="7dp"
+                    android:layout_margin="1dp"
+                    android:text="1" />
+
+                <CheckBox
+                    android:id="@+id/sit2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:button="@null"
+                    android:textSize="13sp"
+                    android:background="@drawable/pc"
+                    android:gravity="center"
+                    android:paddingBottom="7dp"
+                    android:layout_margin="1dp"
+                    android:text="2" />
+
+                <CheckBox
+                    android:id="@+id/sit3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:button="@null"
+                    android:textSize="13sp"
+                    android:background="@drawable/pc"
+                    android:gravity="center"
+                    android:paddingBottom="7dp"
+                    android:layout_margin="1dp"
+                    android:text="3" />
+
+                <CheckBox
+                    android:id="@+id/sit4"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:button="@null"
+                    android:textSize="13sp"
+                    android:background="@drawable/pc"
+                    android:gravity="center"
+                    android:paddingBottom="7dp"
+                    android:layout_margin="1dp"
+                    android:text="4" />
+                
+                <CheckBox
+                    android:id="@+id/sit5"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:button="@null"
+                    android:textSize="13sp"
+                    android:background="@drawable/pc"
+                    android:gravity="center"
+                    android:paddingBottom="7dp"
+                    android:layout_margin="1dp"
+                    android:text="5" />
+                
+               <CheckBox
+                    android:id="@+id/sit6"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:button="@null"
+                    android:textSize="13sp"
+                    android:background="@drawable/pc"
+                    android:gravity="center"
+                    android:paddingBottom="7dp"
+                    android:layout_margin="1dp"
+                    android:text="6" />
+
+                <CheckBox
+                    android:id="@+id/sit7"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:button="@null"
+                    android:textSize="13sp"
+                    android:background="@drawable/pc"
+                    android:gravity="center"
+                    android:paddingBottom="7dp"
+                    android:layout_margin="1dp"
+                    android:text="7" />
+
+                <CheckBox
+                    android:id="@+id/sit8"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:button="@null"
+                    android:textSize="13sp"
+                    android:background="@drawable/pc"
+                    android:gravity="center"
+                    android:paddingBottom="7dp"
+                    android:layout_margin="1dp"
+                    android:text="8" />
+
+                <CheckBox
+                    android:id="@+id/sit9"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:button="@null"
+                    android:textSize="13sp"
+                    android:background="@drawable/pc"
+                    android:gravity="center"
+                    android:paddingBottom="7dp"
+                    android:layout_margin="1dp"
+                    android:text="9" />
+
+                <CheckBox
+                    android:id="@+id/sit10"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:button="@null"
+                    android:textSize="13sp"
+                    android:background="@drawable/pc"
+                    android:gravity="center"
+                    android:paddingBottom="7dp"
+                    android:layout_margin="1dp"
+                    android:layout_weight="1"
+                    android:text="10" />
+
+            </LinearLayout>
+            <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" >
+
+                <CheckBox
+                    android:id="@+id/sit11"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:button="@null"
+                    android:textSize="13sp"
+                    android:background="@drawable/pc"
+                    android:gravity="center"
+                    android:paddingBottom="7dp"
+                    android:layout_margin="1dp"
+                    android:text="11" />
+
+                <CheckBox
+                    android:id="@+id/sit12"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:button="@null"
+                    android:textSize="13sp"
+                    android:background="@drawable/pc"
+                    android:gravity="center"
+                    android:paddingBottom="7dp"
+                    android:layout_margin="1dp"
+                    android:text="12" />
+
+                <CheckBox
+                    android:id="@+id/sit13"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:button="@null"
+                    android:textSize="13sp"
+                    android:background="@drawable/pc"
+                    android:gravity="center"
+                    android:paddingBottom="7dp"
+                    android:layout_margin="1dp"
+                    android:text="13" />
+
+                <CheckBox
+                    android:id="@+id/sit14"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:button="@null"
+                    android:textSize="13sp"
+                    android:background="@drawable/pc"
+                    android:gravity="center"
+                    android:paddingBottom="7dp"
+                    android:layout_margin="1dp"
+                    android:text="14" />
+                
+                <CheckBox
+                    android:id="@+id/sit15"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:button="@null"
+                    android:textSize="13sp"
+                    android:background="@drawable/pc"
+                    android:gravity="center"
+                    android:paddingBottom="7dp"
+                    android:layout_margin="1dp"
+                    android:text="15" />
+                
+               <CheckBox
+                    android:id="@+id/sit16"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:button="@null"
+                    android:textSize="13sp"
+                    android:background="@drawable/pc"
+                    android:gravity="center"
+                    android:paddingBottom="7dp"
+                    android:layout_margin="1dp"
+                    android:text="16" />
+
+                <CheckBox
+                    android:id="@+id/sit17"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:button="@null"
+                    android:textSize="13sp"
+                    android:background="@drawable/pc"
+                    android:gravity="center"
+                    android:paddingBottom="7dp"
+                    android:layout_margin="1dp"
+                    android:text="17" />
+
+                <CheckBox
+                    android:id="@+id/sit18"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:button="@null"
+                    android:textSize="13sp"
+                    android:background="@drawable/pc"
+                    android:gravity="center"
+                    android:paddingBottom="7dp"
+                    android:layout_margin="1dp"
+                    android:text="18" />
+
+                <CheckBox
+                    android:id="@+id/sit19"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:button="@null"
+                    android:textSize="13sp"
+                    android:background="@drawable/pc"
+                    android:gravity="center"
+                    android:paddingBottom="7dp"
+                    android:layout_margin="1dp"
+                    android:text="19" />
+
+                <CheckBox
+                    android:id="@+id/sit20"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:button="@null"
+                    android:textSize="13sp"
+                    android:background="@drawable/pc"
+                    android:gravity="center"
+                    android:paddingBottom="7dp"
+                    android:layout_margin="1dp"
+                    android:layout_weight="1"
+                    android:text="20" />
+
+            </LinearLayout>
+            
+                        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" >
+
+                <CheckBox
+                    android:id="@+id/sit21"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:button="@null"
+                    android:textSize="13sp"
+                    android:background="@drawable/pc"
+                    android:gravity="center"
+                    android:paddingBottom="7dp"
+                    android:layout_margin="1dp"
+                    android:text="21" />
+
+                <CheckBox
+                    android:id="@+id/sit22"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:button="@null"
+                    android:textSize="13sp"
+                    android:background="@drawable/pc"
+                    android:gravity="center"
+                    android:paddingBottom="7dp"
+                    android:layout_margin="1dp"
+                    android:text="22" />
+
+                <CheckBox
+                    android:id="@+id/sit23"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:button="@null"
+                    android:textSize="13sp"
+                    android:background="@drawable/pc"
+                    android:gravity="center"
+                    android:paddingBottom="7dp"
+                    android:layout_margin="1dp"
+                    android:text="23" />
+
+                <CheckBox
+                    android:id="@+id/sit24"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:button="@null"
+                    android:textSize="13sp"
+                    android:background="@drawable/pc"
+                    android:gravity="center"
+                    android:paddingBottom="7dp"
+                    android:layout_margin="1dp"
+                    android:text="24" />
+                
+                <CheckBox
+                    android:id="@+id/sit25"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:button="@null"
+                    android:textSize="13sp"
+                    android:background="@drawable/pc"
+                    android:gravity="center"
+                    android:paddingBottom="7dp"
+                    android:layout_margin="1dp"
+                    android:text="25" />
+                
+               <CheckBox
+                    android:id="@+id/sit26"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:button="@null"
+                    android:textSize="13sp"
+                    android:background="@drawable/pc"
+                    android:gravity="center"
+                    android:paddingBottom="7dp"
+                    android:layout_margin="1dp"
+                    android:text="26" />
+
+                <CheckBox
+                    android:id="@+id/sit27"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:button="@null"
+                    android:textSize="13sp"
+                    android:background="@drawable/pc"
+                    android:gravity="center"
+                    android:paddingBottom="7dp"
+                    android:layout_margin="1dp"
+                    android:text="27" />
+
+                <CheckBox
+                    android:id="@+id/sit28"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:button="@null"
+                    android:textSize="13sp"
+                    android:background="@drawable/pc"
+                    android:gravity="center"
+                    android:paddingBottom="7dp"
+                    android:layout_margin="1dp"
+                    android:text="28" />
+
+                <CheckBox
+                    android:id="@+id/sit29"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:button="@null"
+                    android:textSize="13sp"
+                    android:background="@drawable/pc"
+                    android:gravity="center"
+                    android:paddingBottom="7dp"
+                    android:layout_margin="1dp"
+                    android:text="29" />
+
+                <CheckBox
+                    android:id="@+id/sit30"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:button="@null"
+                    android:textSize="13sp"
+                    android:layout_weight="1"
+                    android:background="@drawable/pc"
+                    android:gravity="center"
+                    android:paddingBottom="7dp"
+                    android:layout_margin="1dp"
+                    android:text="30" />
+
+            </LinearLayout>
+            
+            <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" >
+
+                <CheckBox
+                    android:id="@+id/sit31"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:button="@null"
+                    android:textSize="13sp"
+                    android:background="@drawable/pc"
+                    android:gravity="center"
+                    android:paddingBottom="7dp"
+                    android:layout_margin="1dp"
+                    android:text="31" />
+
+                <CheckBox
+                    android:id="@+id/sit32"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:button="@null"
+                    android:textSize="13sp"
+                    android:background="@drawable/pc"
+                    android:gravity="center"
+                    android:paddingBottom="7dp"
+                    android:layout_margin="1dp"
+                    android:text="32" />
+
+                <CheckBox
+                    android:id="@+id/sit33"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:button="@null"
+                    android:textSize="13sp"
+                    android:background="@drawable/pc"
+                    android:gravity="center"
+                    android:paddingBottom="7dp"
+                    android:layout_margin="1dp"
+                    android:text="33" />
+
+                <CheckBox
+                    android:id="@+id/sit34"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:button="@null"
+                    android:textSize="13sp"
+                    android:background="@drawable/pc"
+                    android:gravity="center"
+                    android:paddingBottom="7dp"
+                    android:layout_margin="1dp"
+                    android:text="34" />
+                
+                <CheckBox
+                    android:id="@+id/sit35"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:button="@null"
+                    android:textSize="13sp"
+                    android:background="@drawable/pc"
+                    android:gravity="center"
+                    android:paddingBottom="7dp"
+                    android:layout_margin="1dp"
+                    android:text="35" />
+                
+               <CheckBox
+                    android:id="@+id/sit36"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:button="@null"
+                    android:textSize="13sp"
+                    android:background="@drawable/pc"
+                    android:gravity="center"
+                    android:paddingBottom="7dp"
+                    android:layout_margin="1dp"
+                    android:text="36" />
+
+                <CheckBox
+                    android:id="@+id/sit37"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:button="@null"
+                    android:textSize="13sp"
+                    android:background="@drawable/pc"
+                    android:gravity="center"
+                    android:paddingBottom="7dp"
+                    android:layout_margin="1dp"
+                    android:text="37" />
+
+                <CheckBox
+                    android:id="@+id/sit38"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:button="@null"
+                    android:textSize="13sp"
+                    android:background="@drawable/pc"
+                    android:gravity="center"
+                    android:paddingBottom="7dp"
+                    android:layout_margin="1dp"
+                    android:text="38" />
+
+                <CheckBox
+                    android:id="@+id/sit39"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:button="@null"
+                    android:textSize="13sp"
+                    android:background="@drawable/pc"
+                    android:gravity="center"
+                    android:paddingBottom="7dp"
+                    android:layout_margin="1dp"
+                    android:text="39" />
+
+                <CheckBox
+                    android:id="@+id/sit40"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:button="@null"
+                    android:textSize="13sp"
+                    android:layout_weight="1"
+                    android:background="@drawable/pc"
+                    android:gravity="center"
+                    android:paddingBottom="7dp"
+                    android:layout_margin="1dp"
+                    android:text="40" />
+            </LinearLayout>
+            
+            <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" >
+
+                <CheckBox
+                    android:id="@+id/sit41"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:button="@null"
+                    android:textSize="13sp"
+                    android:background="@drawable/pc"
+                    android:gravity="center"
+                    android:paddingBottom="7dp"
+                    android:layout_margin="1dp"
+                    android:text="41" />
+
+                <CheckBox
+                    android:id="@+id/sit42"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:button="@null"
+                    android:textSize="13sp"
+                    android:background="@drawable/pc"
+                    android:gravity="center"
+                    android:paddingBottom="7dp"
+                    android:layout_margin="1dp"
+                    android:text="42" />
+
+                <CheckBox
+                    android:id="@+id/sit43"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:button="@null"
+                    android:textSize="13sp"
+                    android:background="@drawable/pc"
+                    android:gravity="center"
+                    android:paddingBottom="7dp"
+                    android:layout_margin="1dp"
+                    android:text="43" />
+
+                <CheckBox
+                    android:id="@+id/sit44"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:button="@null"
+                    android:textSize="13sp"
+                    android:background="@drawable/pc"
+                    android:gravity="center"
+                    android:paddingBottom="7dp"
+                    android:layout_margin="1dp"
+                    android:text="44" />
+                
+                <CheckBox
+                    android:id="@+id/sit45"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:button="@null"
+                    android:textSize="13sp"
+                    android:background="@drawable/pc"
+                    android:gravity="center"
+                    android:paddingBottom="7dp"
+                    android:layout_margin="1dp"
+                    android:text="45" />
+                
+               <CheckBox
+                    android:id="@+id/sit46"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:button="@null"
+                    android:textSize="13sp"
+                    android:background="@drawable/pc"
+                    android:gravity="center"
+                    android:paddingBottom="7dp"
+                    android:layout_margin="1dp"
+                    android:text="46" />
+
+                <CheckBox
+                    android:id="@+id/sit47"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:button="@null"
+                    android:textSize="13sp"
+                    android:background="@drawable/pc"
+                    android:gravity="center"
+                    android:paddingBottom="7dp"
+                    android:layout_margin="1dp"
+                    android:text="47" />
+
+                <CheckBox
+                    android:id="@+id/sit48"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:button="@null"
+                    android:textSize="13sp"
+                    android:background="@drawable/pc"
+                    android:gravity="center"
+                    android:paddingBottom="7dp"
+                    android:layout_margin="1dp"
+                    android:text="48" />
+
+                <CheckBox
+                    android:id="@+id/sit49"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:button="@null"
+                    android:textSize="13sp"
+                    android:background="@drawable/pc"
+                    android:gravity="center"
+                    android:paddingBottom="7dp"
+                    android:layout_margin="1dp"
+                    android:text="49" />
+
+                <CheckBox
+                    android:id="@+id/sit50"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/pc"
+                    android:button="@null"
+                    android:textSize="13sp"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:paddingBottom="7dp"
+                    android:layout_margin="1dp"
+                    android:text="50" />
+
+            </LinearLayout>
+            <LinearLayout
+            android:background="#EEEEEE"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" >
+
+                <ImageView
+                    android:id="@+id/imageView1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/pc_off" />
+
+                <TextView
+                    android:id="@+id/textView2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_marginLeft="10dp"
+                    android:gravity="center_vertical"
+                    android:layout_weight="0.4"
+                    android:textColor="#000000"
+                    android:text="선택 가능" />
+                <ImageView
+                    android:id="@+id/imageView2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/pc_no" />
+                <TextView
+                    android:id="@+id/textView3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_weight="0.4"
+                    android:layout_marginLeft="10dp"
+                    android:gravity="center_vertical"
+                    android:textColor="#000000"
+                    android:text="선택 불가" />
+                
+            </LinearLayout>
+            
+           <LinearLayout
+               android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" >
+
+               <TextView
+                   android:id="@+id/text_info"
+                   android:layout_width="fill_parent"
+                   android:layout_height="match_parent"
+                   android:text=""
+                   android:layout_weight="0.9"
+                   android:layout_margin="3dp"
+                   android:gravity="center_vertical"
+                   android:textColor="#000000"
+                   android:textAppearance="?android:attr/textAppearanceMedium" />
+
+               <Button
+                   android:id="@+id/but_resv"
+                   android:layout_width="wrap_content"
+                   android:layout_height="wrap_content"
+                   android:layout_weight="0.1"
+                   android:text="예약" />
+                
+               </LinearLayout>
+            
+           <fragment 
+               android:layout_width="match_parent"
+			    android:layout_height="match_parent"
+			    android:id="@+id/map"
+			    tools:context=".MapsActivity"
+			    android:name="com.google.android.gms.maps.SupportMapFragment" />
+            
+            
+
+
+</LinearLayout>

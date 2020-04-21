@@ -1,0 +1,11 @@
+﻿빌드 시작: 2015-11-21 오전 4:18:20
+     1>2 노드의 "c:\Users\hwang jaeho\documents\visual studio 2015\Projects\test\test\test.vcxproj" 프로젝트(Build 대상)입니다.
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"Debug\\" /Fd"Debug\vc140.pdb" /Gd /TP /analyze- /errorReport:prompt main.cpp
+         main.cpp
+     1>c:\users\hwang jaeho\documents\visual studio 2015\projects\test\test\main.cpp(7): fatal error C1083: 포함 파일을 열 수 없습니다. 'my_global.h': No such file or directory
+     1>"c:\Users\hwang jaeho\documents\visual studio 2015\Projects\test\test\test.vcxproj" 프로젝트를 빌드했습니다(Build 대상). - 실패
+
+빌드하지 못했습니다.
+
+경과 시간: 00:00:02.95

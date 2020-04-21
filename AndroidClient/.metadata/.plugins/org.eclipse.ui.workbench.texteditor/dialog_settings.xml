@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<section name="Workbench">
+	<section name="org.eclipse.ui.texteditor.FindReplaceDialog">
+		<item value="false" key="isRegEx"/>
+		<item value="Enabled" key="selection"/>
+		<item value="false" key="casesensitive"/>
+		<item value="false" key="incremental"/>
+		<item value="true" key="wrap"/>
+		<item value="false" key="wholeword"/>
+		<list key="findhistory">
+			<item value="enabled"/>
+			<item value="cnt"/>
+			<item value="recv=null;"/>
+			<item value="recv=null"/>
+			<item value="returning.start();"/>
+			<item value="&#x09; private void check_rep()"/>
+			<item value="&quot;7dp&quot;"/>
+			<item value="&quot;7dp"/>
+		</list>
+		<list key="replacehistory">
+			<item value="&quot;7dp&quot;android:layout_margin=&quot;1dp&quot;"/>
+			<item value="button=&quot;@null&quot;"/>
+			<item value="button=&quot;@drawable/pc&quot;"/>
+			<item value="button"/>
+			<item value="CheckBox"/>
+			<item value="&lt;RadioButton"/>
+			<item value="&quot;"/>
+			<item value="13sp"/>
+		</list>
+	</section>
+	<section name="org.eclipse.ui.texteditor.FindReplaceDialog_dialogBounds">
+		<item value="261" key="DIALOG_WIDTH"/>
+		<item value="1|맑은 고딕|9.0|0|WINDOWS|1|-12|0|0|0|400|0|0|0|1|0|0|0|0|맑은 고딕" key="DIALOG_FONT_NAME"/>
+		<item value="380" key="DIALOG_HEIGHT"/>
+		<item value="1118" key="DIALOG_X_ORIGIN"/>
+		<item value="305" key="DIALOG_Y_ORIGIN"/>
+	</section>
+</section>

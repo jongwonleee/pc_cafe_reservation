@@ -1,0 +1,186 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#F4FA58"
+    android:orientation="vertical"
+    tools:context="${relativePackage}.${activityClass}" >
+
+    <ImageView
+        android:id="@+id/imageView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/img_title"
+        android:clickable="false" />
+        
+        
+    <LinearLayout
+        android:id="@+id/Layout_Login"
+        android:layout_width="fill_parent"
+        android:layout_height="150dp"
+        android:layout_below="@+id/imageView1"
+        android:layout_centerHorizontal="true"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginTop="36dp"
+        android:paddingLeft="15dp"
+        android:paddingRight="15dp"
+        android:paddingBottom="7dp"
+        android:paddingTop="7dp"
+        android:orientation="vertical"
+        android:background="@drawable/but_circle" >
+        
+        <EditText
+                android:id="@+id/edit_id"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_marginLeft="20dp"
+            	android:layout_marginRight="20dp"
+                android:layout_marginTop="10dp"
+                android:layout_weight="3"
+                android:paddingLeft="10dp"
+                android:background="#FDFFbb"
+                android:gravity="center_vertical"
+                android:hint="ID" />
+        <EditText
+                android:id="@+id/edit_pw"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_marginLeft="20dp"
+            	android:layout_marginRight="20dp"
+                android:layout_marginTop="3dp"
+                android:layout_weight="3"
+                android:paddingLeft="10dp"
+                android:background="#FDFFbb"
+                android:gravity="center_vertical"
+                android:inputType="textPassword" 
+                android:hint="Password" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="30dp"
+            android:layout_marginRight="30dp"
+            android:layout_weight="3" >
+
+            <Button
+                android:id="@+id/but_login"
+                android:layout_width="wrap_content"
+                android:layout_height="45dp"
+                android:layout_weight="1"         
+                android:layout_marginRight="5dp"
+                android:background="#fbff9b"
+                android:stateListAnimator="@null"
+                android:text="로그인"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+            <Button
+                android:id="@+id/but_join"
+                android:layout_width="wrap_content"
+                android:layout_height="45dp"
+                android:layout_weight="1"
+                android:layout_marginLeft="5dp"
+                android:background="#fbff9b"
+                android:stateListAnimator="@null"
+                android:text="회원가입"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+
+        </LinearLayout>
+        
+    </LinearLayout>
+    <LinearLayout
+        android:id="@+id/Layout_logedin"
+        android:layout_width="fill_parent"
+        android:layout_height="150dp"
+        android:layout_below="@+id/imageView1"
+        android:layout_centerHorizontal="true"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginTop="36dp"
+        android:orientation="vertical"
+        android:background="@drawable/but_circle" >
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="30dp" >
+
+            <TextView
+                android:id="@+id/text_name"
+                android:layout_width="wrap_content"
+                android:layout_height="fill_parent"
+                android:layout_weight="0.58"
+                android:layout_gravity="center"
+                android:gravity="center|right"
+                android:text="이종원"
+                android:textSize="17sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textView1"
+                android:layout_width="wrap_content"
+                android:layout_height="fill_parent"
+                android:layout_weight="0.48"
+                android:gravity="center_vertical"
+                android:layout_gravity="center"
+                android:text=" 님 환영합니다!"
+                android:textSize="15sp" />
+            
+            
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:layout_height="70dp" >
+
+            <EditText
+                android:id="@+id/edit_pcname"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginBottom="10dp"
+                android:layout_marginTop="10dp"
+                android:layout_weight="3"
+                android:paddingLeft="10dp"
+                android:background="#FDFFbb"
+                android:gravity="center_vertical"
+                android:hint="검색할 PC방 이름" />
+
+            <Button
+                android:id="@+id/but_name"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:layout_marginLeft="10dp"
+                android:layout_gravity="center"
+                android:background="#fbff9b"
+                android:stateListAnimator="@null"
+                android:text="검색"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+
+        </LinearLayout>
+
+	    <Button
+	        android:id="@+id/but_loc"
+	        android:layout_width="wrap_content"
+	        android:layout_gravity="center"
+	        android:layout_height="45dp"
+	        android:layout_marginLeft="14dp"
+	        android:layout_marginRight="14dp"
+	        android:background="#fbff9b"
+	        android:stateListAnimator="@null"
+	        android:text="현재 위치에서 검색"
+	        android:textSize="20sp"
+	        android:textStyle="bold"/>
+
+    </LinearLayout>
+
+
+
+</RelativeLayout>
