@@ -9,31 +9,31 @@
 
 ---------------------------
 ### 2. Mobile application
-> 2.1. Stack
+- 2.1. Stack
     - Language: Java
     - GPS information
     - TCP client programming
     
-> 2.2. Framework
+- 2.2. Framework
     - Eclipse
     - compile sdk version 21
 
 ---------------------------
 ### 3. Server
-> 3.1. Stack
+- 3.1. Stack
     - Language: C
     - TCP server progmramming
     
-> 3.2. Framework
+- 3.2. Framework
    - Visual Studio 15
    
 ---------------------------
 ### 4. Mobile application
-> 4.1. Stack
+- 4.1. Stack
     - Language: C#
     - TCP client programming
 
-> 3.2. Framework
+- 3.2. Framework
     - Visual Studio 15
 
 ---------------------------
